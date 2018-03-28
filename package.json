@@ -1,0 +1,30 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "No description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwarrier/django-playground.git"
+  },
+  "author": "Deepak Warrier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwarrier/django-playground/issues"
+  },
+  "homepage": "https://github.com/dwarrier/django-playground#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
