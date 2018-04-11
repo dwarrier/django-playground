@@ -11,8 +11,7 @@
 
     <title>Full Width Pics - Start Bootstrap Template</title>
     <link rel="stylesheet" href="{% static 'css/full-width-pics.css' %}">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/polls.css' %}">
 
   </head>
 
@@ -21,7 +20,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Nano Cards</a>
+      <!-- <a class="navbar-brand" href="#">Nano Cards</a> -->
+      <a href="#" class="navbar-left"><img src="https://image.ibb.co/fy6HEx/172dd7e2_2c27_464b_81ea_1ba14815fb8c.png" alt="172dd7e2_2c27_464b_81ea_1ba14815fb8c" alt="d0613275_8b28_4a4e_b4fe_8f99b78dc0a6"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
       </button>
@@ -33,16 +33,16 @@
 	  </a>
 	  </li>
 	  <li class="nav-item">
-	  <a class="nav-link" href="#about">About</a>
+	  <a class="nav-link" href="#load_section">Load</a>
 	  </li>
 	  <li class="nav-item">
-	  <a class="nav-link" href="#">Buy Now</a>
+	  <a class="nav-link" href="#redeem_section">Redeem</a>
 	  </li>
 	  <li class="nav-item">
-	  <a class="nav-link" href="#">Redeem</a>
+	  <a class="nav-link" href="#faq_section">FAQ</a>
 	  </li>
 	  <li class="nav-item">
-	  <a class="nav-link" href="#">FAQ</a>
+	  <a class="nav-link" href="#buy_section">Buy Now</a>
 	  </li>
 	  <li class="nav-item">
 	  <a class="nav-link" href="#">Contact</a>
@@ -54,14 +54,13 @@
 
     <!-- Header - set the background image for the header in the line below -->
     <header class="py-5 bg-image-full" style="background-image: url('https://unsplash.it/1900/1080?image=1076');">
-    <img class="img-fluid d-block mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Rd-3RGM0ZGi3mBQMIkxNzYYuIADlovtY3PwvZKVsHhkE7GYF" alt="">
     </header>
 
     <!-- Content section -->
     <section class="py-5">
     <div class="center">
-      <h1>Nano is zero-fee and has instant transactions. Spread the word.</h1>
-      <p class="lead">Nano is a digital currency for everyday transactions. Make your Nano easy to transfer in the real world. </p>
+      <h1>Zero-fee and instant transactions: Spread the word.</h1>
+      <p class="lead">Nano is a cutting edge digital currency for everyday peer-to-peer transactions. We make it easy to transfer in the real world. </p>
     </div>
     <div class="container">
       <div class="card-deck">
@@ -75,7 +74,7 @@
 	      <p class="card-text">Cards have a QR code, as well as a private key hidden behind a scratch off panel.</p>
 	    </div>
 	    <div class="card-footer">
-<a href="#" class="btn btn-primary">Buy Now</a>
+<a href="#buy_section" class="btn btn-primary">Buy Now</a>
 	    </div>
 	  </div>
 	  <div class="card text-center" style="width: 18rem;">
@@ -84,11 +83,10 @@
 	  </div>
 	    <div class="card-body">
 	      <h5 class="card-title">Load them with Nano</h5>
-	      <p class="card-text">Use the QR code to load Nano on the card, and to check the value anytime.</p>
-	      <p> Some extra stuff here </p>
+	      <p class="card-text">Use the QR code to load Nano on the card, and to check the value at any time.</p>
 	    </div>
 	    <div class="card-footer">
-<a href="#" class="btn btn-primary">How To Load</a>
+<a href="#load_section" class="btn btn-primary">How To Load</a>
 	  </div>
 	</div>
 	  <div class="card text-center" style="width: 18rem;">
@@ -100,7 +98,7 @@
 	      <p class="card-text">To redeem the value on the card, reveal the private key and use it with a Nano wallet.</p>
 	    </div>
 	    <div class="card-footer">
-<a href="#" class="btn btn-primary">How To Redeem</a>
+<a href="#redeem_section" class="btn btn-primary">How To Redeem</a>
 	    </div>
 	</div>
       </div>
@@ -115,14 +113,42 @@
     </section>
 
     <!-- Content section -->
-    <a name="about"></a>
-    <section class="py-5">
+    <a name="load_section"></a>
+    <section class="py-5 light-section">
     <div class="container">
-      <h1>Section Heading</h1>
-      <p class="lead">ABOUT SECTION</p>
+      <div class="center"> <h1>How to Load</h1></div>
+      <p class="lead">Loading your cards</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
     </div>
     </section>
+
+    <a name="redeem_section"></a>
+    <section class="py-5">
+    <div class="container">
+      <div class="center"><h1>How to Redeem</h1></div>
+      <p class="lead">Redeeming your card</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+    </div>
+    </section>
+
+    <a name="faq_section"></a>
+    <section class="py-5 light-section">
+    <div class="container">
+      <div class="center"> <h1>FAQ</h1> </div>
+      <p class="lead">Common questions</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+    </div>
+    </section>
+
+    <a name="buy_section"></a>
+    <section class="py-5">
+    <div class="container">
+      <div class="center"> <h1>Buy Now</h1> </div>
+      <p class="lead">Buy buy buy</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+    </div>
+    </section>
+
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
