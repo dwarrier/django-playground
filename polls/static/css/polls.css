@@ -5,3 +5,8 @@ a {
 .light-section {
   background-color: #f2f2f2;
 }
+
+.title-padded {
+  padding-left:50px;
+  padding-right:50px;
+}
