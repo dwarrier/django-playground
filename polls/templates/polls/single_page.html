@@ -59,8 +59,8 @@
     <!-- Content section -->
     <section class="py-5">
     <div class="center">
-      <h1>No fees and instant transactions: Spread the word.</h1>
-      <p class="lead">Nano is a cutting edge digital currency for everyday peer-to-peer transactions. We make Nano easy to transfer in the real world. </p>
+      <h1>No fees, instant transactions: Spread the word.</h1>
+      <p class="lead">Nano is a blazing fast digital currency for everyday peer-to-peer transactions. We make Nano easy to transfer in the real world. </p>
     </div>
     <div class="container">
       <div class="card-deck">
@@ -161,6 +161,20 @@
 
 <div class="container">
 
+  <div class="center-btn">
+    <p>
+      </p><div class="input-group mb-3">
+              <button type="button" class="btn btn-outline-secondary btn-number"  data-type="minus" data-field="quant[2]">
+                <i class="fas fa-minus"></i>
+              </button>
+          <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100">
+              <button type="button" class="btn btn-outline-secondary btn-number" data-type="plus" data-field="quant[2]">
+                  <i class="fas fa-plus"></i>
+              </button>
+      </div>
+    <p></p>
+</div>
+
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Buy now
@@ -199,6 +213,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
+    <!-- <script src="cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" -->
     <script src="{% static 'js/bundle.js' %}"></script>
   </body>
 
